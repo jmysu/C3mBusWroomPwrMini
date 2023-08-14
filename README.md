@@ -7,4 +7,4 @@ An updated C3Wroom/Mini project w/ LiPo battery charging.<br>
 PCB drawings (Top/Bottom) <br>
  <img src="hardware/C3mBusWroomMini_PcbTop.png" width=45%> <img src="hardware/C3mBusWroomMini_PcbBottom.png" width=45%>
 
-Circuit drawings [V0 PDF](hardware/C3mBusWroomPwrMini_V0_2023-08-11.pdf)
+Circuit drawings [V0 PDF](hardware/C3mBusWroomPwrMini_V0_2023-08-14.pdf)

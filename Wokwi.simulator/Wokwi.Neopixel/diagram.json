@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "author": "jimmy Su",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-breadboard__alpha",
+      "id": "bb1",
+      "top": -45.7,
+      "left": -272.52,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-custom-board",
+      "id": "C3mBusMini",
+      "top": -178.14,
+      "left": -532.77,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led-ring",
+      "id": "ring1",
+      "top": -346.85,
+      "left": -641.8,
+      "attrs": { "pixels": "16" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -67.3,
+      "left": -313.3,
+      "rotate": 180,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "C3mBusMini:TX21", "$serialMonitor:RX", "", [] ],
+    [ "C3mBusMini:RX20", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "C3mBusMini:LED0", "black", [ "v0" ] ],
+    [ "led1:A", "C3mBusMini:3V3.0", "orange", [ "v0" ] ],
+    [ "ring1:GND", "C3mBusMini:GND.1", "black", [ "v0" ] ],
+    [ "ring1:VCC", "C3mBusMini:5V.1", "red", [ "v0" ] ],
+    [ "C3mBusMini:$NEO_DO", "ring1:DIN", "green", [ "h-53.63", "v-7.17" ] ],
+    [ "ring1:DIN", "C3mBusMini:3", "green", [ "v9.88", "h173.04", "v91.33" ] ],
+    [ "btn1:1.r", "C3mBusMini:GND.3", "black", [ "v56.82", "h-135.24" ] ],
+    [ "btn1:2.r", "C3mBusMini:KeyDown", "yellow", [ "h-21.98", "v57.76" ] ],
+    [ "btn1:2.r", "C3mBusMini:Down", "yellow", [ "h-16.26", "v67.77", "h-99.28" ] ]
+  ],
+  "dependencies": {}
+}

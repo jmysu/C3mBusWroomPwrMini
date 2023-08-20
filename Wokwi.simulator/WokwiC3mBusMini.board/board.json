@@ -49,6 +49,8 @@
     "SDA8": { "x":  28.5, "y": 30.0, "target": "GPIO8" },
     "5V":   { "x":  28.5, "y": 32.6, "target": "power(5)" },
     "GND.2":{ "x":  28.5, "y": 35.2, "target": "GND" },
+    /*Buzzer*/
+    "Bz2":  { "x": 10.0, "y": 40.0, "target": "GPIO2" },
     /*Keypads*/
     "Up":   { "x":  27.5, "y": 41.8, "target": "GPIO8" },
     "Enter":{ "x":  27.5, "y": 45.2, "target": "GPIO20" },
@@ -93,8 +95,8 @@
         "DI": "3"        
       }
     }
-  ],
-  
+  ]
+  ,
   /*Buzzer*/
   "bz": [
     {
@@ -105,9 +107,8 @@
       "attrs": { "volume": "1.0" },
       "pins":{
         "1": "BzGND",
-        "2": "Bz18"
+        "2": "Bz2"
       }
     }  
   ]
-  
 }

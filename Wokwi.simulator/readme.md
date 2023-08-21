@@ -16,7 +16,7 @@
         <img src="C3Starter_Diagram.json.png"> <br>
   - Update Sketch.ino <br>
         <img src="C3Starter_Sketch.ino.png"> <br>
-  - Run the simulator, the LED should start blink! <br>
+  - Run the simulator, the LED should start blink with SerialMonitor outputs! <br>
         <img src="C3mBusMini_WokwiStarter.gif" width=30%>
   
 ---

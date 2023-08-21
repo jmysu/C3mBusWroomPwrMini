@@ -17,7 +17,7 @@
   - Update Sketch.ino <br>
         <img src="C3Starter_Sketch.ino.png"> <br>
   - Run the simulator, the LED should start blink! <br>
-
+        <img src="C3mBusMini_WokwiStarter.gif" width=30%>
   
 ---
 

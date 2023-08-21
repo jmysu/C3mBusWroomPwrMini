@@ -10,7 +10,7 @@
   - Go WokWi [ESP32C3 Starter page](https://wokwi.com/projects/new/esp32-c3) <br>
   - Update Diagram.json <br>
     Change "parts", "type":"xxxxxxxxx" to "type":"wokwi-custom-board" <br>
-    Change "connections", "esp:TX" to "esp:TX21"; "esp:RX" to "esp:RX20"; (board drawing will change!)
+    Change "connections", "esp:TX" to "esp:TX21"; "esp:RX" to "esp:RX20"; _(board drawing will change!)_
         <img src="C3Starter_Diagram.json.png"> <br>
   - Update Sketch.ino <br>
         <img src="C3Starter_Sketch.ino.png"> <br>

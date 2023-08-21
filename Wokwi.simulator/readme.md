@@ -6,14 +6,17 @@
 
 ---
 
-### WokWi custom board <br>
+### WokWi custom board mini how-to<br>
   - Go WokWi [ESP32C3 Starter page](https://wokwi.com/projects/new/esp32-c3) <br>
   - Change Type:"xxxxxxxxx" to "wokwi-custom-board" <br>
+    Change "TX" to "TX21"; "RX" to "RX20"
         <img src="C3Starter_Diagram.json.png"> <br>
   - Update Sketch.ino <br>
         <img src="C3Starter_Sketch.ino.png"> <br>
         
+  - Run the simulator <br>
 
+  
 ---
 
 ### Reference

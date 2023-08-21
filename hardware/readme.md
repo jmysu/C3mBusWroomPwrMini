@@ -6,4 +6,4 @@ The circuit drawing, PCB and gerber files
   - Change Wroom/Mini USB-micro to 2.54mm adapter <br>
     
 <img src="C3mBusWroomPwrMini0818.png" width=60%> <br>
-<img src="C3mBusPwrMini0818Top.png" width=30%> <img src="C3mBusWroomMini_PcbBottom.png" width=30%> <br>
+<img src="C3mBusWroomMini_PcbTop.png" width=30%> <img src="C3mBusWroomMini_PcbBottom.png" width=30%> <br>

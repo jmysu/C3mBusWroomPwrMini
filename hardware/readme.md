@@ -7,5 +7,5 @@ The circuit drawing, PCB and gerber files
     
 <img src="C3mBusWroomPwrMini0818.png" width=75%> <br>
 <img src="C3mBusWroomMini_PcbTop.png" width=45%> <img src="C3mBusWroomMini_PcbBottom.png" width=45%> <br>
+<img src="C3mBusMini-0907.gif" > <br>
 
-<img src="C3mBusMini-0907.gif“>
